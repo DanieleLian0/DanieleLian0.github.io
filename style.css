@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+
+    
+}
+
+:target {
+    scroll-margin-top: 0.8m;
+}
+
+body {
+    font-size: 100%;
+    background-color: white;
+    padding: 10px 50px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.cabecalho-imagem{
+    height: 150px;
+}
+
+.cabecalho-menu-item {
+    padding: 10px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: #F95ECD;
+    border-color: white;    
+}
+
+.texto-apresentacao {
+    font-family: VT323;
+    color: #F95ECD;
+    font-size: 24px ;
+    
+}
+
+.texto-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: verdana;
+    font-size: 30px;
+    line-height: 50px;
+    align-items: center;
+    height: 80%;
+    
+}
+
+.imagem-botao-principal {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+
+.imagem-home {
+    margin: 0;
+    width: 300px;
+    padding: 10px;
+}
+
+.botton-github {
+    width: 120px;
+    height: 40px;
+    border: none;
+    box-shadow: 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-color: #ffe665;
+    font-family: Verdana;
+    font-size: 16px;
+    color: #000;
+}
+.texto-apresentacao-principal {
+    padding: 20px;
+}
+
+.texto-apresentacao-principal h1 {
+    font-size: 64px;
+    font-family: verdana;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.texto-secundario {
+    padding: 20px;
+    font-size: 36px;
+    font-family: verdana;
+    font-weight: 100;
+    line-height: 2;
+}
+
+.texto-secundario-gif {
+    margin-top: 20px;
+    align-items: end;
+    font-size: 36px;
+    font-family: verdana;
+    font-weight: 100;
+    line-height: 20px;
+    color: #F95ECD
+}
+
+.cabecalho-menu-sobre-mim{
+    padding: 10px 30px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    color: white;
+    border: 1px solid;
+    border-radius: 2px;
+    background-color: #F95ECD;
+    border-color: white;   
+    display: flex;
+    height: 3 0px;
+    width: 260px;
+    justify-content: center;
+   
+}
+    
+.image-sobre-mim{
+    margin: 0;
+    width: 260px;
+    padding: 10px;
+}
+
+.cabecalho-menu-sobre-mim{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100%;
+    margin: 100px;
+}
+
+.botton-sobre-mim{
+    
+}
+
+.texto-sobre-mim{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: verdana;
+    font-size: 14px;
+    line-height: 30px;
+    align-items: center;
+    height: 80%;
+}
+
